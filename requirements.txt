@@ -1,3 +1,6 @@
 opencv-python>=4.8
-mediapipe>=0.10
+# pin: 0.10.14 is the last Windows wheel that ships mp.solutions + tasks API together
+mediapipe==0.10.14
 numpy
+# optional — virtual camera output for OBS / games that want a video feed:
+# pyvirtualcam

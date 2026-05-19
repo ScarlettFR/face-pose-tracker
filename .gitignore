@@ -10,3 +10,16 @@ run.log
 .vscode/
 .DS_Store
 Thumbs.db
+
+# auto-downloaded mediapipe model (~3.7 MB) — pulled on first run, no need to track
+face_landmarker.task
+
+# PyInstaller build artifacts
+build/
+dist/
+*.spec
+
+# runtime output dirs created by detect.py
+exports/
+recordings/
+videos/
